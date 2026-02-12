@@ -1,0 +1,23 @@
+A  PROGRAM ON FOR LOOP
+include<stdio.h>
+int main()
+{
+int num,i;
+int r1,r2;
+int count=0;
+printf("enter the number:\n");
+scanf("%d",&num);
+printf("enter the stating point of range:\n");
+scanf("%d",&r1);
+printf("enter the ending point of range:\n");
+scanf("%d",&r2);
+for(i=r1;i<=r2;i++)
+{
+    if(num%i==0)
+    {
+        count++;
+    }
+}
+    printf("count=%d",count);
+    return 0;
+}

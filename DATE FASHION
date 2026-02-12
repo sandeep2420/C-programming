@@ -1,0 +1,23 @@
+A PROGRAM ON DATE FASHION
+#include<stdio.h>
+int main()
+{
+int you,date;
+printf(" enter the range of your clothes:");
+scanf("%d",&you);
+printf("enter the range of your date's clothes:");
+scanf("%d",&date);
+if(date<=2||you<=2)
+{
+    printf("0");
+}
+else if(date>=8||you>=8)
+{
+    printf("2");
+}
+else
+{
+    printf("1");
+}
+return 0;
+}

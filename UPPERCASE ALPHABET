@@ -1,0 +1,12 @@
+A PROGRAM TO FIND WHETHER THE GIVEN CHARACTER IS UPPERCASE ALPHABET OR NOT
+#include <stdio.h>
+
+int main() {
+    char a;
+    int res;
+    printf("Enter a CHARACTER: ");
+    scanf(" %c", &a);
+    res = (a >= 'A' && a <= 'Z') ;
+    printf("The %c is an uppercase ALPHABET: %d\n", a, res);
+    return 0;
+}

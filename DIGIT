@@ -1,0 +1,12 @@
+ TO FIND WHETHER THE GIVEN CHARACTER IS A DIGIT OR NOT
+#include <stdio.h>
+
+int main() {
+    char a;
+    int res;
+    printf("Enter a CHARACTER: ");
+    scanf(" %c", &a);
+    res = (a >= '0' && a <= '9') ;
+    printf("The %c is a DIGITT: %d\n", a, res);
+    return 0;
+}
